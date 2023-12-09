@@ -51,7 +51,7 @@ if(BUILD_INTERFACE_ONLY)
     endif ()
     target_include_directories(deinamig INTERFACE
             "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>")
-    add_definitions(-DDEINAMIG_INTERFACE_ONLY)
+    target_compile_definitions(deinamig INTERFACE DEINAMIG_INTERFACE_ONLY)
 else()
     if (WIN32)
         target_sources(deinamig PRIVATE src/windows.c)
