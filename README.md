@@ -11,19 +11,6 @@ A couple of different approaches are provided to accomplish this goal.
 
 The intention is for the library to be either referenced directly within toolsets or for specific functionally to be easily extracted and embedded within toolsets.
 
-References:
-
-* [https://www.forrest-orr.net/post/malicious-memory-artifacts-part-i-dll-hollowing](https://www.forrest-orr.net/post/malicious-memory-artifacts-part-i-dll-hollowing)
-* [https://github.com/forrest-orr/phantom-dll-hollower-poc](https://github.com/forrest-orr/phantom-dll-hollower-poc)
-* [https://www.secforce.com/blog/dll-hollowing-a-deep-dive-into-a-stealthier-memory-allocation-variant/](https://www.secforce.com/blog/dll-hollowing-a-deep-dive-into-a-stealthier-memory-allocation-variant/)
-* [https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Execution/ManualMap/Map.cs](https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Execution/ManualMap/Map.cs)
-* [https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Execution/ManualMap/Overload.cs](https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Execution/ManualMap/Overload.cs)
-* [https://github.com/TheWover/donut/blob/master/loader/inmem_pe.c](https://github.com/TheWover/donut/blob/master/loader/inmem_pe.c)
-* [https://www.unknowncheats.me/forum/programming-for-beginners/349013-eject-mapped-dll.html#post2538435](https://www.unknowncheats.me/forum/programming-for-beginners/349013-eject-mapped-dll.html#post2538435)
-* [http://phrack.org/issues/62/12.html](http://phrack.org/issues/62/12.html)
-* [https://www.mdsec.co.uk/2021/06/bypassing-image-load-kernel-callbacks/](https://www.mdsec.co.uk/2021/06/bypassing-image-load-kernel-callbacks/)
-* [https://github.com/DarthTon/Blackbone](https://github.com/DarthTon/Blackbone)
-
 -------------------------------
 
 # Library API
