@@ -385,9 +385,9 @@ TEST_CASE("build_indirect_syscall_stub")
 
 
   auto function_address = deinamig_get_export_address_by_hash(ntdll, hash, key, hashit, FALSE, FALSE);
-  REQUIRE(function_address != NULL);
+  REQUIRE(function_address != nullptr);
   auto syscall_address = deinamig_get_syscall_address(function_address, TRUE);
-  REQUIRE(syscall_address != NULL);
+  REQUIRE(syscall_address != nullptr);
 
   unsigned char syscall_stub[64] = {0};
   //auto syscall_stub = (unsigned char*) VirtualAlloc(nullptr, 64, MEM_RESERVE | MEM_COMMIT, PAGE_READWRITE);

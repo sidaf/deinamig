@@ -4,7 +4,11 @@
 #include <stdint.h>
 #include <windows.h>
 #include <winternl.h>
+#ifdef DEINAMIG_INTERFACE_ONLY
+#define DEINAMIG_EXPORT
+#else
 #include <deinamig/export.h>
+#endif
 
 /**
  * Hash function typedef

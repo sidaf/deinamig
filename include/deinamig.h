@@ -40,7 +40,6 @@ extern "C" {
 #endif
 
 #include <stddef.h>
-#include <deinamig/export.h>
 
 #if defined(__APPLE__)
 #include "deinamig/darwin.h"
